@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   name = "twitter-text"
   version = "1.14.3"
-  url = "https://github.com/twitter/#{name}"
+  url = "https://github.com/ReticentJohn/#{name}"
   git_url = "#{url}.git"
   tag = "v#{version}"
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     Identifying and linking any url, @username, #hashtag, or $cashtag entities
                        DESC
   s.homepage = "#{url}/tree/#{tag}/objc"
-  s.source = { :git => "#{url}.git", :tag => tag }
+  s.source = { :git => "#{url}.git", :branch => "30-Char-Limit" }
   s.source_files = "objc/lib/**/*.{h,m}"
   s.author = { "Twitter, Inc." => "opensource@twitter.com" }
   s.ios.deployment_target = "4.0"
