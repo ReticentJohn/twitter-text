@@ -9,6 +9,7 @@
 //
 //  http://www.apache.org/licenses/LICENSE-2.0
 //
+// THIS CODE HAS BEEN MODIFIED TO ALLOW UP TO 30 CHARACTER USERNAMES BY JOHN GABELMANN ON 3/17/17.
 
 #import "TwitterText.h"
 
